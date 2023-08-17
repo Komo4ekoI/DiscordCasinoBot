@@ -4,9 +4,9 @@ import disnake
 owners = [302065849722732544]
 
 
-class RussianCasino(commands.Bot):
+class CasinoBot(commands.Bot):
     @classmethod
-    def create(cls) -> "RussianCasino":
+    def create(cls) -> "CasinoBot":
         return cls(
             owner_ids=set(owners),
             status=disnake.Status.online,

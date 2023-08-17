@@ -1,11 +1,11 @@
 import logging
 import os
-from bot import RussianCasino
+from bot import CasinoBot
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-bot = RussianCasino.create()
+bot = CasinoBot.create()
 logger = logging.getLogger(__name__)
 
 bot.load_extensions("cogs")
