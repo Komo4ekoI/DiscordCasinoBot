@@ -14,7 +14,7 @@ class CasinoBot(commands.Bot):
             command_prefix="!",
             allowed_mentions=disnake.AllowedMentions(),
             activity=disnake.Game("казино!"),
-            description="BeeTools",
+            description="CasinoBot",
         )
 
     async def on_ready(self):
